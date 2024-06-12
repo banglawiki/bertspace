@@ -1,0 +1,20 @@
+name: bertformer
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+  - anaconda
+dependencies:
+  - pip>=19.0.3
+  - python=3.7
+  - connexion=1.5.3
+  - Werkzeug=0.16.1
+  - boto3
+  - regex
+  - flask-cors
+  - jinja2=2.10
+  - numpy
+  - pytorch
+  - torchvision
+  - pip:
+    - transformers==2.4.1
